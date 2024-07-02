@@ -37,6 +37,6 @@ app.use('/', (req, res) => {
 });
 
 
-const PORT = process.env.PORT || +process.argv[1] || 8080;
+const PORT = process.env.PORT || +process.argv[1] || 3374;
 app.listen(PORT, () => {});
 console.log("this ran :P");
